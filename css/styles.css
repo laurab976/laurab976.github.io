@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8c1a6; /* Sage Green */
+    color: #2E4F2F; /* Deep Sage Green */
+}
+
+/* Background behind content boxes */
+.main-content {
+    background-color: #d8e3d5; /* Pale Sage Green */
+    padding: 40px 0;
+}
+
+/* Header */
+.header {
+    background-color: #a8c1a6; /* Sage Green */
+    padding: 20px;
+    color: white;
+}
+
+/* Increase Name Size */
+.header h1 {
+    font-size: 3rem; /* Bigger Name */
+    font-weight: bold;
+}
+
+/* Sections (Content Boxes) */
+.container {
+    padding: 40px 20px;
+    background-color: #ffffff; /* White Boxes */
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h2 {
+    background-color: #a8c1a6; /* Sage Green */
+    color: white !important; /* Ensure White Text */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* Heading Hover Effect */
+h2:hover {
+    color: #e0f2e0 !important; /* Lighter Green */
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+/* Placeholder Image Styling */
+.placeholder-img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 5px solid #6B8E69; /* Sage Green Border */
+}
